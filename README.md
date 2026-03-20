@@ -6,6 +6,9 @@ To examine disparities in delayed medical care among U.S. adults using nationall
 ## Data Source
 National Health Interview Survey (NHIS) 2024 adult dataset (n = 16,773 after cleaning).
 
+## Public Health Relevance
+Delayed access to healthcare is a critical indicator of health system inequities. This analysis highlights the role of insurance coverage and socioeconomic factors in shaping access to care, with implications for health policy and equity-focused interventions.
+
 ## Methods
 - Cleaned and recoded raw NHIS data in SAS
 - Created key variables:
@@ -22,9 +25,6 @@ National Health Interview Survey (NHIS) 2024 adult dataset (n = 16,773 after cle
 
 ## Tools Used
 - SAS (data cleaning, recoding, logistic regression)
-
-## Public Health Relevance
-Delayed access to healthcare is a critical indicator of health system inequities. This analysis highlights the role of insurance coverage and socioeconomic factors in shaping access to care, with implications for health policy and equity-focused interventions.
 
 ## Files
 - analysis.sas: full data cleaning and modeling code
