@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-13T08:19:41Z",
+  "_captured_run_id": "r_2389738b086740ddb2cdf5758a88839c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote nhis_clean (30 rows, 9 columns).",
+    "NOTE: PROC FREQ statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

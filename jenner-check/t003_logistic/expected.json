@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-13T08:19:41Z",
+  "_captured_run_id": "r_c6461249394f4d2f9ab0a9b24025e801",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote nhis_final (30 rows, 9 columns).",
+    "NOTE: PROC LOGISTIC data=nhis_final"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

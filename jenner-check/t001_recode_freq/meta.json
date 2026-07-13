@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_recode_freq",
+  "source_file": "nhis-delayed-care-analysis.sas",
+  "source_blob_sha": "9f362cba7c5789fb7e511cd80f7659f2dcfd91c6",
+  "source_commit": "e4c0e9645257ca1a35858172a34a44eb53e16590",
+  "notes": "Recode of MHTHDLY_A/HICOV_A/SEX_A into delayed_care/insured/sex, then PROC FREQ on all three. PROC IMPORT of adult24.csv replaced with a 30-row mock nhis_raw matching the read columns; author's recode logic verbatim."
+}

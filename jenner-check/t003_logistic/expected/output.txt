@@ -1,0 +1,57 @@
+                                     
+---------------------------  --------
+Number of Observations Read        30
+Number of Observations Used        30
+
+              Response Profile              
+  Probability modeled is delayed_care='1'   
+
+Ordered Value  delayed_care  Total Frequency
+-------------  ------------  ---------------
+            1  0                          15
+            2  1                          15
+
+               Class Level Information               
+
+Class        Levels  Values                          
+---------  --------  --------------------------------
+insured           2  0 1                             
+race_eth          4  Black Hispanic Other White      
+education         3  College+ HS or less Some college
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+The LOGISTIC Procedure
+Response Variable: delayed_care
+
+Criterion     Value
+---------  --------
+AIC          49.154
+-2 Log L     35.154
+SC           58.963
+
+            Analysis of Maximum Likelihood Estimates            
+
+Parameter  Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+---------  --------  --------------  ---------------  ----------
+Intercept   -1.9656          1.4698           1.7885      0.1811
+insured      1.4742          1.0230           2.0767      0.1496
+race_eth     2.6820          1.5405           3.0309      0.0817
+race_eth     1.0593          1.3103           0.6536      0.4188
+race_eth     1.6210          1.4018           1.3371      0.2475
+education    0.9998          1.0991           0.8275      0.3630
+education   -0.5929          0.9948           0.3552      0.5512
+
+                     Odds Ratio Estimates                      
+
+Effect     Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+---------  --------------  -----------------  -----------------
+insured             4.368              0.588             32.433
+race_eth           14.614              0.714            299.281
+race_eth            2.884              0.221             37.617
+race_eth            5.058              0.324             78.927
+education           2.718              0.315             23.431
+education           0.553              0.079              3.884
+
