@@ -1,0 +1,49 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA nhis_raw
+
+NOTE: Processing inline DATALINES (30 lines)
+
+NOTE: Read 30 rows from DATALINES.
+NOTE: Wrote nhis_raw (30 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA nhis_clean
+
+
+NOTE: Read 30 rows from nhis_raw.
+NOTE: Wrote nhis_clean (30 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA nhis_clean2
+
+
+NOTE: Read 30 rows from nhis_clean.
+NOTE: Wrote nhis_clean2 (30 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_race_eth.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: DATA nhis_final
+
+
+NOTE: Read 30 rows from nhis_clean2.
+NOTE: Wrote nhis_final (30 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA nhis_final
+
+
+NOTE: Read 30 rows from nhis_final.
+NOTE: Wrote nhis_final (30 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_education.spec.json
+NOTE: PROC FREQ statement used.

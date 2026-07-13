@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_logistic",
+  "source_file": "nhis-delayed-care-analysis.sas",
+  "source_blob_sha": "9f362cba7c5789fb7e511cd80f7659f2dcfd91c6",
+  "source_commit": "e4c0e9645257ca1a35858172a34a44eb53e16590",
+  "notes": "Full recode chain feeding the multivariable PROC LOGISTIC (delayed_care ~ insured + race_eth + education, param=ref). Same mock nhis_raw substitution; author's model spec verbatim."
+}

@@ -1,0 +1,19 @@
+                                                   The FREQ Procedure
+
+                                          Cumulative    Cumulative
+delayed_care    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+0                      15     50.00           15        50.00
+1                      15     50.00           30       100.00
+
+                                     Cumulative    Cumulative
+insured    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------
+0                 10     33.33           10        33.33
+1                 20     66.67           30       100.00
+
+                                    Cumulative    Cumulative
+sex       Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+Female           15     50.00           15        50.00
+Male             15     50.00           30       100.00

@@ -1,0 +1,17 @@
+                                                   The FREQ Procedure
+
+                                      Cumulative    Cumulative
+race_eth    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------
+Black               7     23.33            7        23.33
+Hispanic            8     26.67           15        50.00
+Other               9     30.00           24        80.00
+White               6     20.00           30       100.00
+                                                   The FREQ Procedure
+
+                                          Cumulative    Cumulative
+education       Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+College+               10     33.33           10        33.33
+HS or less              9     30.00           19        63.33
+Some college           11     36.67           30       100.00

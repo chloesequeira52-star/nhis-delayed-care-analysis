@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_race_edu_freq",
+  "source_file": "nhis-delayed-care-analysis.sas",
+  "source_blob_sha": "9f362cba7c5789fb7e511cd80f7659f2dcfd91c6",
+  "source_commit": "e4c0e9645257ca1a35858172a34a44eb53e16590",
+  "notes": "Nested Hispanic-priority race_eth classification and the education recode (drop EDUCP_A in 7,8,9 then bucket into three levels), each followed by PROC FREQ. Same mock nhis_raw substitution; author's classification logic verbatim."
+}
